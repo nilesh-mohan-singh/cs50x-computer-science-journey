@@ -1,0 +1,195 @@
+12:50 PM
+===========
+puzzle pieces & building blocks represents:
+functions, loops, conditionals, and other such constructs
+
+motion, looks, sound, events, control, sensing, operators, Variables, My Blocks
+
+drag and drop programming area
+
+by default Cat
+
+up down left right
+
+
+
+functions
+- a program which simply says hello world
+- 
+
+
+stop sign
+green flag
+
+
+magnetic & snap together
+white oval is editable
+
+++++++++++++
+When Clicked
+say Hello, World!
++++++++++++++
+
+argument
+side effect - A side effect in a computer program is often something that happens visually on the screen or maybe audibly out of a speaker. It's something that just kind of happens as a result of you using a function like a speech bubble appearing on the screen.
+
+input -> algorithm -> output
+
+variable - in programming can store human name
+
+++++++++++++++
+When clicked
+ask What's your name? and wait
+say hello, 
+say answer
+++++++++++++++
+
+so darn fast - very quickly
+
++++++++++++++
+When clicked
+ask What's your name? and wait
+say hello, 
+wait 2 seconds
+say answer
+++++++++++++++
+
+operations
+override
+
+++++++++++++++
+When clicked
+ask what's your name? and wait
+say join hello, answer
+++++++++++++++
+
+syntactically
+
+return value
+
+hello, answer -> join -> hello, David
+hello, David -> say -> cat is saying hello David
+
+extension
+- text to speech
+
+++++++++++++++
+when clicked
+ask What's your name? and wait
+speak join hello, answer
+++++++++++++++
+when clicked
+ask What's your name? and wait
+set voice to kitten/giant
+speak join hello, answer
++++++++++++++
+when clicked
+play sound Meow until done
++++++++++++++
+when clicked 
+paly sound Meow until done
+play sound Meow until done
+play sound Meow until done
++++++++++++++
+when clicked 
+play sound Meow until done
+wait 2 seconds
+play sound Meow until done
+wait 2 seconds
+play sound Meow until done
++++++++++++++
+
+What's bad about that program even if you haven't program before
+Repeating
+
+screw yourself eventually
+
+
+loops
+++++++++++++++
+when clicked
+repeat 3
+play sound Meow until done
+wait 1 seconds
+++++++++++++++
+
+modularized the code
+made better design
+
+==============
+01:24 PM
+
+==============
+
+
+==============
+02:12 PM
+
+My blocks
+
++++++++++++++
+define meow
+play sound Meow until done
+wait 1 seconds
+...
+when clicked
+repeat 3
+meow
+++++++++++++++
+
+
+
+argument
+
+++++++++++++++
+define meow n times
+repeat n
+play sound Meow until done
+wait 1 seconds
+...
+when clicked
+meow 3 times
+++++++++++++++
+
+
+
+conditionals
+
+++++++++++++++
+when clicked
+forever
+if touching mouse-pointer then
+play sound Meow until done
+++++++++++++++
+when clicked
+if touching mouse-pointer then
+play sound Meow until done
+++++++++++++++
+when clicked
+forever
+if touching mouse-pointer then
+play sound Meow until done
+++++++++++++++
+
+
+
+
+cs50.harvvard.edu
+Oscartime
+Oscartime 1
+Oscartime 2
+Oscartime 3
+Oscartime 4
+Oscartime 5
+
+predecessors
+former classmate
+
+Ivy's hardest game - Harvard 0
+Ivy's hardest game - Harvard 1
+Ivy's hardest game - Harvard 2
+Ivy's hardest game - Harvard
+
+=========
+02:48 PM
+=========
