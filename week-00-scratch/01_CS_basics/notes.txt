@@ -1,0 +1,184 @@
+17th Nov 2026 - 5:45 AM
+=========================
+Artificial Intelligence - Elephant
+Why should you learn these fundamental technology in world of AI?
+Visual Studio Code
+My own chatbot -> sample code in python
+code chat.py -> python chat.py
+CS50 own Rubber Duck
+CS50 Visual Studio Code - 
+...
+Computer Science
+computational thinking
+problem solving
+input -> black box -> output
+...
+unary 
+base1 
+unary or base 1 with human hand
+binary
+binary digit short in bit
+bit
+light bulb off = 0
+light bulb on  = 1
+computers don't have light bulbs but they have switches
+millions of tiny things called registers
+light bulb example counting upto 7
+base 10
+decimal
+123 = 100*1 + 10*2 + 1*3 = 123
+### = 10^2 + 10^1 + 10^1 - base 10
+### = 2^2 + 2^1 + 2^0 - change the base to 2
+### = 4 + 2 + 1
+
+000 = 0
+001 = 1
+010 = 2
+011 = 3
+100 = 4
+101 = 5
+110 = 6
+111 = 7
+1000= 8, to calculate it we'll go to 4th bit
+
+2 bits, 3 bits, 4 bits don't so much useful in real world
+byte = 8 bits
+
+00000000 = 0
+11111111 = 255 = 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1
+
+255 + 1 = 256 = 2^8
+0 to 255 represent colors
+32 bits at a time
+32 bits calcualte roughly 4 billion
+64 bits calculate roughtly which I am unable to pronounce
+
+ASCII
+How might computer to represent letter?
+What patterns it should represent letter?
+same 0 & 1 patterns represent number, letter, color, music
+A = 01000001 = 65
+ASCII = American Standard Code for Information Interchange
+exercise to identify pattern of 0 & 1 for letter
+HI! = in ASCII
+3 bytes = HI!
+32 gap between UPPERCASE to LOWERCASE
+Just change the 5th bit column of 8 bit to change UPPERCASE to LOWERCASE
+practical exercise with volunteer
+============
+06:32 AM
+
+============
+
+06:49 AM
+============
+ASCII can calculate very few this is why we moved ahead to Unicode the superset of ASCII
+Unicode - just the pattern of 0 & 1
+256 possibilities by ASCII as it represents 8 bits
+Unicode can represent a lot than ASCII with 16bit or 32bit
+RGB = mix of 3 colors with some amount of red green blue
+Color takes 3 byte
+72 73 33 gives shade of Yellow
+256 with base 16
+pixel
+24 bits or 3 byte for every single pixel takes
+And images have a lot of like 1000s of pixels
+flip book
+video
+music
+sound
+
+Questions:
+1. How does computer distinguish between the letter 65 and the number 65?
+2. Can we go base 10 to base 2
+3. Is binary and base 2 the same thing?
+=============
+07:12 AM
+
+=============
+
+09:15 AM
+=============
+Algorithm
+step by step instructions for solving some problems
+Contact in Iphone - Alphabetized
+Phonebook Example - Old School Phonebook
+page by page searching - what's bad about this algorithm
+2 page by page search - what's bad about this algorithm
+What Iphone or Android do for searching?
+make understood by torning the phonebook 
+What's powerful of all those algorithm?
+in short of good better best but they all get the job done
+but fundamental different in their efficiency and quality of their design 
+first one is just n in the graph
+second one is just n/1 in the graph
+third one is just log2n fundamentally
+What algorithm and good design about?
+is figuring out what's the logic by which you can solve problem not only correctly but efficiently as well.
+
+Code
+It is just the implementation an language a computer understand of algorithm.
+
+Pseudocode
+English like or human like formulation of step by step instructions just using terse correct english or whatever human language.
+
+Pseudocode of searching a particular contact
+Pick up phone book 
+Open to middle of phone book
+Look at page
+If person is on page
+    Call person
+Else if person is earlier in book
+    Open to middle of left half of book
+    Go back to line 3
+Else if person is later in book
+    Open to middle of right half of book
+    Go back to line 3
+Else 
+    Quit
+
+
+Function - pick up, open to, look at, call, open to, quit
+Function are verbs or actions that really get some piece of work done for you. Function are verb or actions.
+...
+Conditionals - If, Else if, Else
+Boolean - yes or no
+Loops - Go back to, Go back to
+Those are which we call Loops which somehow induces cyclical behavior again and again
+
+
+Hello World - in 0 & 1 patterns
+It turns out that not only do computers standardize information, data like numbers and letters and colors and other things, they also standardize instructions. And so if you've heard of companies like Intel or AMD or Nvidia or others, among the things they do is they decide as a company what pattern of zeros and ones shall represent what funcitonality and it's very low level functionality.
+
+It turns out in programming circles the very first program that students typically write is that of hello world.
+
+
+
+
+
+
+#include <stdio.h>
+
+int main(void)
+{
+    printf("hello, world\n")
+}
+
+
+
+
+Now this one here is written in a much more intelligble way, even if you're not a programmer, odds are if I asked you what does this program do, you would have said, Oh hello world.
+
+Even though there's a lot of clutter here like no idea what this is unitl next week in main void that looks cryptic. There's these weird curly braces which we rarely use in the real world, but at least I understand a few words like hello and world, and this is kind of familiar print F but it's not print, but it's probably the same thing.
+
+Compiler - A compiler is just a program that translates one language to another.
+
+And more modernly this is a language called C which we'll spend a few weeks on together because it's so fundamental to how the computer works. Even this is going to get tedious by like week 6 of the class, and this is gonna stupid, this is gonna get annoying, this is gonna get cryptic. 
+
+We're just gonna write print hello on the screen in order to use a different language called Python.Why? Because someone wrote in C. A program that can convert Python, this is a white lie to C, which can then be converted to zeros and ones and so forth. So in computing there's this principles of abstraction where we start with the basics and thank God we can all trust that someone else solved these really hard problems way long ago. Then they wrote programs to make it easier. We wrote programs to make it easier. You can now write code like I did with the chatbot to make things even easier. Why? Because OpenAI and other companies have abstracted away a lot of the lower level implementation details and that's where I think this stuff gets really exciting. We can stand on the shoulders of others so long as we know how to use and assemble these kinds of building blocks.
+
+And speaking of building blocks, let's start here. Now odds are some of you might have started here in like grade school playing with scratch, and it's great for like after school programs, learning how to program, and you probably used it this language to make games and graphics and just maybe playful art or the like but in Scratch which is a graphical programming language designed about 20 years ago from our friends down the road at MIT's Media Lab, it represents pretty much everything we're going to be doing fundamentally over the next several weeks in more modern languages like C and Python, more textual languages if you will. I bet I could ask the group here what does this program do when do when you click a green flag. Well it says hello world on the screen, because with Scratch, you have the ability to express yourself with functions and loops and conditionals and all of this, but by using drag and drop puzzle pieces. So what we're about to do is this. We're going to go on my screen to scratch.mit.edu. It's a browser-based programming environment and we're only going to spend one week, really a few days in CS 50 on this language, but the overarching goal is to one, make sure evveryone's comfortable applying some of these building blocks and actually developing something that's interesting and visual and audio as well, but to also give us some visuals that we can rely on and fall back on when all of those curly braces and parentheses and sort of stupid syntax comes back that's necessary in many languages but can very quickly become a distraction early on from the intresting and useful ideas. So what we're about to see is this in a browser. This is the scratch programming environment and there's a few different parts of this world.
+
+===========
+10:14 AM
+===========
